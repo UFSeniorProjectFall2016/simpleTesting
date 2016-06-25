@@ -1,0 +1,23 @@
+{
+  "name": "kai-simple-version",
+  "version": "1.0.0",
+  "description": "This is a simple version to test out the communication protocol that will be used in the Kai application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UFSeniorProjectFall2016/simpleTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UFSeniorProjectFall2016/simpleTesting/issues"
+  },
+  "homepage": "https://github.com/UFSeniorProjectFall2016/simpleTesting#readme",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.4.8"
+  }
+}
