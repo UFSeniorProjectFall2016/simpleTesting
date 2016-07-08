@@ -122,7 +122,7 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script>
-      var socket = io();
+      var socket = io(window.location.hostname);
       $('#door').change(function(){
         socket.emit('device status', {id:'#door', name: 'Door locked: ', status: $('#door').prop('checked')});
         $('#door').prop('checked', $('#door').prop('checked'));
